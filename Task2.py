@@ -1,6 +1,10 @@
 # Task 2
-sum = 0
-for n in range(1, 51):
-    sum = sum + n
+import math
+def calc(num):
+    print(f"Square root : {math.sqrt(num)}")
+    print(f"Logarithm : {math.log(num)}")
+    print(f"Sine: {math.sin(num)}")
 
-print("The sum of numbers from 1 to 50 is: " + str(sum))
+num = int(input("Enter a number: "))
+calc(num)
+
