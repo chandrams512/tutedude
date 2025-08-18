@@ -1,13 +1,12 @@
 # Task 1
 
-num = input("Enter a number: ")
-
-if(int(num) % 2 == 0):
-    print(num + " is an even number")
-else:
-    print(num + " is an odd number")
-
-
-
-
-
+def factorial(n):
+    result = 1
+    if n < 2:
+        return 1
+    else:
+        for i in range(2,n+1):
+            result = result * (i)
+        return result
+num = int(input("Enter a number: "))
+print(factorial(num))
