@@ -1,12 +1,10 @@
 # Task 1
 
-def factorial(n):
-    result = 1
-    if n < 2:
-        return 1
-    else:
-        for i in range(2,n+1):
-            result = result * (i)
-        return result
-num = int(input("Enter a number: "))
-print(factorial(num))
+try:
+    with open('sample.txt', 'r') as file:
+        for line in file:
+            print(line.strip())
+except FileNotFoundError:
+    print("Error: The file sample.txt was not found")
+
+
