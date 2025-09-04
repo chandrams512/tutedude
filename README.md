@@ -1,2 +1,2 @@
 # tutedude
-Python assignments for Module 5, assignment 4 for File, Exceptions & Errors
+Python assignments for Module 6, assignment 5 for Data Structures and Strings
